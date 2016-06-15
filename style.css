@@ -46,7 +46,7 @@ body {
 #main-nav {
     float: right;
     display: inline-block;
-    padding: 5px;
+    padding: 5px 0 0;
 }
 
 nav li {
