@@ -27,30 +27,23 @@ html {
 
 body {
 	/*background: url(artwork.jpg) no-repeat center center fixed;*/
-	background: url(landscape-1.jpg) no-repeat center center;
-	background-color: #ABC0B0;
-	background-size: cover;
+	background: url(landscape-3.jpg) no-repeat center center fixed;
 	font-family: Lato, sans-serif;
 }
 
-.row {
+#header {
 	max-width: 96%;
-	width: 1260px;
+	width: 960px;
 	margin: 0 auto;
-}
-
-header {
-	/*padding: 10px 0;*/
-	/*min-height: 60px;
-	height: auto;*/
 }
 
 #header-wrap{
 	background: #6AB47B;
+	border-top: 5px solid #4C8158;
+	overflow: auto;
 }
 
 #main-nav {
-	/*width: 60%;*/
     float: right;
     display: inline-block;
     padding: 5px;
@@ -61,8 +54,6 @@ nav li {
 	text-decoration: none;
 	list-style: none;
 	padding: 10px 20px;
-	/*margin: 1%;*/
-	
 }
 
 nav li a {
@@ -72,24 +63,50 @@ nav li a {
 }
 
 nav li:hover{
-	border-bottom: 4px solid blue;
+	border-bottom: 5px solid #4C8158;
 }
+
 #site-title {
 	font-size: 2em;
 	/*color: #728b76;*/
 	color: #fff;
 	text-align: center;
-	font-family: 'Source Code Pro', monospace;
+	font-family: 'Lato', sans-serif;
 	display: inline-block;
 	padding: 5px;
 }
 
-#quote {
-	margin: 10% auto;
+#content{
+	width: 96%;
+	max-width: 960px;
+	margin: 0 auto;
+	padding-top: 10%;
+}
+
+#developer {
 	text-align: center;
-	min-height: 665px;
+}
+#developer h1{
+	font-family: 'Raleway', sans-serif;
+	font-weight: normal;
+	font-size: 6em;
 	color: #fff;
-	/*background: url(yoda.png) no-repeat fixed right;*/
-	font-family: 'Indie Flower', cursive;
-	font-size: 3em;
+}
+
+#developer h2{
+	font-family: Lato, sans-serif;
+	font-size: 2.2em;
+    color: #DAF5E0;
+    margin-bottom: 30px;
+}
+
+#quote {
+	background: #2F3430;
+	background: rgba(47, 52, 48, .8);
+	font-size: 1.6em;
+	text-align: center;
+	color: #fff;
+	line-height: 1.618em;
+	padding: 30px;
+	font-family: 'Droid Serif', Serif;
 }
