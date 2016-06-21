@@ -2,29 +2,37 @@
 <html>
 <head>
 	<title>David Gierman - Modern Frontend Developer</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link href='https://fonts.googleapis.com/css?family=Lato|Raleway|Open+Sans|Indie+Flower|Source+Code+Pro|Droid+Serif' rel='stylesheet'>
+	<script src="https://use.fontawesome.com/c3e06da910.js"></script>
 </head>
 <body>
 	<div id="header-wrap">
-		<header id="header">
+		<header id="header" class="row">
 			<div id="site-title">
 				&lt;dg/&gt;
 			</div>
 			<nav id="main-nav" role="navigation">
 				<ul>
-					<li><a href="#">Home</a></li>
-					<li><a href="web-compon">Buttons</a></li>
+					<li><a href="/">Home</a></li>
+					<li><a href="/web-components">Components</a>
+						<ul class="sub-nav">
+							<li>
+								<a href="/web-components/components/buttons/index.html">Buttons</a>
+							</li>
+						</ul>
+					</li>
 					<li><a href="#">Profile Card</a></li>
 					<li><a href="#">Forms</a></li>
 					<li><a href="#">Calculator</a></li>
 					<li><a href="#">Product Page</a></li>
 				</ul>
 			</nav>
+			<div style="clear:both;"></div>
 		</header>
 	</div>
-	
-	<main id="content">
+	<div id="main-wrap">
+		<main id="content" class="row">
 		<div id="developer">
 			<h1>David Gierman</h1>
 			<h2> | Modern Frontend Developer |</h2>
@@ -32,8 +40,12 @@
 				"Nothing in the world is worth having or worth doing unless it means effort, pain, difficulty... I have never in my life envied a human being who led an easy life. I have envied a great many people who led difficult lives and led them well." 
 				<br>- Theodore Roosevelt
 			</blockquote>			
-		</div>
-		
+		</div>	
 	</main>
+	</div>
+	<div id="footer-wrap">
+		<footer class="row">
+		<p>Copyright &copy; 2016</p>
+	</footer>
 </body>
 </html>
