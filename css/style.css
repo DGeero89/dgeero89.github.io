@@ -42,6 +42,24 @@ body {
 	font-size: 1.6em;
 }
 
+h1, h2, h3 {
+	padding: 1em 0 1em;
+}
+
+h1 {
+	font-size: 3em;
+	font-weight: normal;
+}
+
+h2 {
+	font-size: 2.6em;
+	font-weight: normal;
+}
+
+p {
+	margin: 0 0 1em;
+}
+
 .row{
 	width: 96%;
 	max-width: 960px;
