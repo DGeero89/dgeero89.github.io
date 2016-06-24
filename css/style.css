@@ -152,7 +152,9 @@ p {
 #page-title{
 	text-align: center;
 	padding: 5%;
-	color: #2F3424;
+	color: #4c8158;
+	font-family: Raleway;
+    font-weight: 300;
 } 
 #site-title {
 	font-size: 2em;
@@ -182,11 +184,17 @@ p {
 #developer {
 	text-align: center;
 }
+
+#developer h1, #developer h2 {
+	padding: 0;
+}
+
 #developer h1{
 	font-family: 'Raleway', sans-serif;
 	font-weight: normal;
 	font-size: 6em;
 	color: #fff;
+
 }
 
 #developer h2{
@@ -259,7 +267,8 @@ p {
 }
 
 .component-container:hover .component-view {
-	opacity: 1;}
+	opacity: 1;
+}
 
 .component-view a {
 	display: block;
