@@ -66,6 +66,11 @@ p {
 	margin: 0 auto;
 } 
 
+.grid_3-1 {
+	width: 32%;
+	float: left;
+	margin-right: 2%;
+}
 /********** Header Styles ***********/
 
 #header-wrap{
@@ -221,17 +226,14 @@ p {
 
 /********** Component Style **********/
 
-.component-container{
+.module{
 	background: #fff;
-	width: 32%;
-	float: left;
-	margin-right: 2%;
 	border: 1px solid #DAF5E0;
-	padding: 5%;
+	padding: 12% 0 12%;
 	text-align: center;
-	border-radius: 4px;
+	border-radius: 5px;
 	position: relative;
-	box-shadow: 2px 2px 22px #e8e8e8;;
+	box-shadow: 2px 2px 22px #e8e8e8;
 	-webkit-transition: all 3s linear;
 	-moz-transition: all 3s linear;
 	-ms-transition: all 3s linear;
@@ -239,7 +241,7 @@ p {
 	transition: all 3s linear;
 }
 
-.component-container h2 {
+.module h2 {
 	color: #4C8158;
 	font-size: 1.6em;
 	text-decoration: none;
@@ -258,6 +260,7 @@ p {
     color: #fff;
     font-size: 2em;
     border-radius: 4px;
+    border-bottom: 5px solid #4C8158;
     box-shadow: 2px 2px 22px #DAF5E0;
     -webkit-transition: all .5s ease;
 	-moz-transition: all .5s ease;
@@ -266,13 +269,17 @@ p {
 	transition: all .5s ease;
 }
 
-.component-container:hover .component-view {
+.module:hover h2{
+	color: transparent;
+}
+
+.module:hover .component-view {
 	opacity: 1;
 }
 
 .component-view a {
 	display: block;
-	padding: 25% 0 0;
+	padding: 20% 0 0;
 	height: 100%;
 	text-decoration: none;
 	color: #fff;
