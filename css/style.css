@@ -67,7 +67,7 @@ p {
 } 
 
 .grid_3-1 {
-	width: 32%;
+	width: 31%;
 	float: left;
 	margin-right: 2%;
 }
@@ -248,7 +248,7 @@ p {
 	cursor: pointer;
 }
 
-.component-view{    
+.module-view{    
 	display: block;
 	position: absolute;
 	opacity: 0;
@@ -273,11 +273,11 @@ p {
 	color: transparent;
 }
 
-.module:hover .component-view {
+.module:hover .module-view {
 	opacity: 1;
 }
 
-.component-view a {
+.module-view a {
 	display: block;
 	padding: 20% 0 0;
 	height: 100%;
