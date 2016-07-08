@@ -188,11 +188,11 @@ grid_3-1:nth-of-type(3n+1),
 #main-wrap{
 	background: url(../images/landscape-2.jpg) no-repeat center center fixed;
 	min-height: 100vh;
+	padding-bottom: 5%;
 }
 
 #content-home{
 	padding-top: 10%;
-
 }
 
 #content {
